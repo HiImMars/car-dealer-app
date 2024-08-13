@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-slate-900;
+  @apply bg-slate-200;
+}
+
+.container {
+  @apply max-w-screen-xl w-full box-border mx-auto px-5 md:px-10 gl:px-12 xl:px-20 overflow-hidden;
+}
