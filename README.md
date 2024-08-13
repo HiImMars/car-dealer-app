@@ -69,19 +69,20 @@ Filter Component:
 Provides dropdown menus for selecting filter options.
 Passes selected values to parent components.
 NextButton Component:
-
 Handles navigation to the results page based on selected filters.
+
 ResultPage Component:
 
 Displays vehicle results based on the selected make and year.
 Fetches vehicle data from an external API and handles errors.
 Data Fetching
+
 API Integration:
-
 Uses fetch requests to interact with external APIs for vehicle data.
-getFilters Function:
 
+getFilters Function:
 Fetches filter options and handles errors.
+
 ResultPage Component:
 Retrieves vehicle models and generates static paths with generateStaticParams for performance.
 
