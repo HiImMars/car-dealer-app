@@ -24,9 +24,9 @@ const config: Config = {
         "2xl": "1440px",
       },
       boxShadow: {
-        base: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;",
+        base: `rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px`,
         baseAccent:
-          "rgba(255, 95, 0, 0.3) 0px 1px 2px 0px, rgba(255, 95, 0, 0.15) 0px 2px 6px 2px;",
+          `rgba(255, 95, 0, 0.3) 0px 1px 2px 0px, rgba(255, 95, 0, 0.15) 0px 2px 6px 2px`,
       },
     },
   },
