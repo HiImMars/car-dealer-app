@@ -1,6 +1,6 @@
 import { Vehicle } from "@/types";
 
-const ENDPOINT = "etMakesForVehicleType/car?format=json";
+const ENDPOINT = "GetMakesForVehicleType/car?format=json";
 
 export async function getFilters() {
   try {
